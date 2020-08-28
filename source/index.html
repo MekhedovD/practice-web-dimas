@@ -3,137 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/my-css.css" />
     <title>Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/my_css.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-menu container">
-        <ul class="header-menu__list">
-          <li class="header-menu__item">
-            <select>
-              <option>Для мужчин</option>
-            </select>
-          </li>
-          <li class="header-menu__item">
-            <select>
-              <option>Для жунщин</option>
-            </select>
-          </li>
-          <li class="header-menu__item">
-            <select>
-              <option>Для детей</option>
-            </select>
-          </li>
-        </ul>
-        <div class="header-menu__logo">
-          <div>
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0)">
-                <path
-                  d="M9.33879 14.7235L4.07221 19.9901L9.33879 25.2566L14.6054 19.9901L9.33879 14.7235Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M19.9944 4.08541L14.7278 9.35199L19.9944 14.6186L25.261 9.35199L19.9944 4.08541Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M19.9914 25.3938L14.7248 30.6604L19.9913 35.927L25.2579 30.6604L19.9914 25.3938Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M30.647 14.7266L25.3804 19.9932L30.647 25.2597L35.9136 19.9932L30.647 14.7266Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M28.6102 12.6866L23.3436 17.9532L25.3828 19.9923L30.6494 14.7258L28.6102 12.6866Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M17.9547 23.3532L12.6881 28.6198L14.7273 30.659L19.9938 25.3924L17.9547 23.3532Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M25.2587 9.35299L19.9921 14.6196L22.0313 16.6587L27.2978 11.3921L25.2587 9.35299Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M14.6177 20.0053L9.35116 25.2719L11.3903 27.311L16.6569 22.0444L14.6177 20.0053Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M11.3788 12.6864L9.33961 14.7256L14.6062 19.9922L16.6453 17.953L11.3788 12.6864Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M14.727 9.34953L12.6879 11.3887L17.9544 16.6552L19.9936 14.6161L14.727 9.34953Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M25.3796 19.9905L23.3405 22.0296L28.607 27.2962L30.6462 25.257L25.3796 19.9905Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M22.046 23.342L20.0069 25.3812L25.2734 30.6477L27.3126 28.6086L22.046 23.342Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M27.3029 32.6971L25.2697 30.6639L20 35.9336L14.7303 30.6639L12.6971 32.6971L20 40L27.3029 32.6971Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M9.3361 14.7303L7.3029 12.6971L0 20L7.3029 27.3029L9.3361 25.2697L4.06639 20L9.3361 14.7303Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M32.6971 12.6971L30.6639 14.7303L35.9336 20L30.6639 25.2697L32.6971 27.3029L40 20L32.6971 12.6971Z"
-                  fill="#D7B399"
-                />
-                <path
-                  d="M25.2697 9.3361L27.3029 7.3029L20 0L12.6971 7.3029L14.7303 9.3361L20 4.06639L25.2697 9.3361Z"
-                  fill="#D7B399"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0">
-                  <rect width="40" height="40" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
+    <div id="header">
+      <div class="container">
+        <div class="header">
+          <div class="header__list">
+            <ul>
+              <li>
+                <a class="gray" href="#">Для мужчин</a>
+              </li>
+              <li>
+                <a class="gray" href="#">Для женщин</a>
+              </li>
+              <li>
+                <a class="gray" href="#">Для детей</a>
+              </li>
+            </ul>
           </div>
-          <p>the loop</p>
-        </div>
-        <div class="header-menu__basket">
-          <p>Оплата</p>
-          <p>Доставка</p>
-        </div>
-          <div class="header-menu__basket-img">
-            <div>
-              <svg
-                width="30"
-                height="28"
-                viewBox="0 0 30 28"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M22.2936 10.4909L16.2385 1.40831C15.9632 1.13308 15.5505 0.857849 15.1376 0.857849C14.7248 0.857849 14.3119 0.995464 14.0367 1.40831L7.98165 10.4909H1.37615C0.550459 10.4909 0 11.0413 0 11.867C0 12.0046 0 12.1423 0 12.2799L3.44037 25.078C3.7156 26.179 4.81651 27.1423 6.05505 27.1423H23.945C25.1835 27.1423 26.2844 26.3166 26.5596 25.078L30 12.2799C30 12.1423 30 12.0046 30 11.867C30 11.0413 29.4495 10.4909 28.6239 10.4909H22.2936ZM11.0092 10.4909L15.1376 4.43583L19.2661 10.4909H11.0092ZM15.1376 21.5001C13.6239 21.5001 12.3853 20.2615 12.3853 18.7478C12.3853 17.234 13.6239 15.9955 15.1376 15.9955C16.6514 15.9955 17.8899 17.234 17.8899 18.7478C17.8899 20.2615 16.6514 21.5001 15.1376 21.5001Z"
-                  fill="#212121"
-                />
-              </svg>
+          <div class="header__list">
+            <div class="logo">
+              <img src="./img/Frame (1).png" />
+              <p>the loop</p>
             </div>
-            <span>5</span>
           </div>
-        
+          <div class="header__list">
+            <div class="link">
+              <a href="#" class="gray">Оплата</a>
+              <a href="#" class="gray">Доставка</a>
+            </div>
+          </div>
+          <div class="header__list">
+            <div class="basket">
+              <a href="#"><img src="./img/basket.png" /></a>
+              <span>5</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </header>
+    </div>
   </body>
 </html>
