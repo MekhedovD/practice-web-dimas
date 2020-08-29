@@ -1,4 +1,6 @@
 body {
+  width: 1920px;
+  margin: 0 auto;
   background: white;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -492,7 +494,6 @@ a {
   background: #d7b399;
 }
 
-
 #discount {
   width: 100%;
   height: 950px;
@@ -561,4 +562,72 @@ a {
   display: inline-block;
   padding: 18px 64px 18px 35px;
   background: #d7b399;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 310px;
+  background: #444444;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__img {
+  display: flex;
+  align-items: center;
+}
+
+.footer__img p {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: white;
+}
+
+.footer__text {
+  width: 200px;
+}
+
+.footer__text p {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #ffffff;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+}
+
+.footer__items p {
+  font-weight: bold;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer__items a {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #cbcfd4;
+  padding-bottom: 10px;
+}
+
+.footer__items a img {
+  padding-bottom: 3px;
+  padding-right: 5px;
 }
