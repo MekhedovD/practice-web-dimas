@@ -16,6 +16,10 @@ a {
   color: #212121;
 }
 
+.black {
+  color: black;
+}
+
 .container {
   max-width: 1140px;
   padding: 0 15px;
@@ -122,4 +126,82 @@ a {
   border-left: 10px solid #d7b399;
   border-bottom: 8px solid transparent;
   transform: rotate(-180deg);
+}
+
+#discount__page {
+  width: 100%;
+  background: #f9f6f1;
+}
+
+.discount__page {
+  width: 100%;
+  /* height: 660px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discount__page_item:first-child {
+  /* background: blue; */
+}
+
+.discount__page_item p:nth-child(1) {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.discount__page_item p:nth-child(2) {
+  margin-top: 35px;
+  margin-bottom: 55px;
+  font-weight: bold;
+  font-size: 3.4375rem;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+}
+
+.discount__page_item a {
+  display: inline-block;
+  background: #d7b399;
+  padding: 20px 30px;
+  color: white;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+
+.discount__page_item:nth-child(2) {
+  position: relative;
+  width: 555px;
+  /* background: gold; */
+}
+
+.discount__page_item span:first-of-type {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.discount__page_item span:last-of-type {
+  font-weight: bold;
+  font-size: 2.625rem;
+  line-height: 51px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #d84033;
+
+  position: absolute;
+  right: 0;
+  top: 75px;
 }
