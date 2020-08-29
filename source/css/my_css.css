@@ -285,7 +285,7 @@ a {
 .men a,
 .women a {
   display: inline-block;
-  background: #D7B399;
+  background: #d7b399;
   padding: 15px 30px;
   margin-top: 40px;
   color: white;
@@ -305,4 +305,69 @@ a {
 .women {
   margin-left: 35px;
   width: 555px;
+}
+
+.collection__item ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collection__item ul li {
+  position: relative;
+  list-style-type: none;
+  height: 236px;
+  width: 275px;
+}
+
+.collection__item ul li p {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+
+  font-weight: 300;
+  font-size: 1.3125rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.03em;
+}
+
+.collection__item ul li:nth-child(1) {
+  background-image: url(../img/shirt.gray.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.collection__item ul li:nth-child(3) {
+  background-image: url(../img/shirt.gray.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.collection__item ul li:nth-child(6) {
+  background-image: url(../img/shirt.gray.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.collection__item ul li:nth-child(8) {
+  background-image: url(../img/shirt.gray.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.collection__item ul li:nth-child(2) {
+  background-image: url(../img/shirt.pink.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.collection__item ul li:nth-child(4) {
+  background-image: url(../img/shirt.pink.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.collection__item ul li:nth-child(5) {
+  background-image: url(../img/shirt.pink.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.collection__item ul li:nth-child(7) {
+  background-image: url(../img/shirt.pink.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
