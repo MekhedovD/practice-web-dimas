@@ -569,7 +569,7 @@ a {
   align-items: center;
   width: 100%;
   height: 310px;
-  background: #444444;
+  background: #000;
 }
 
 .footer {
@@ -630,4 +630,24 @@ a {
 .footer__items a img {
   padding-bottom: 3px;
   padding-right: 5px;
+}
+
+#copyright {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright p,
+.copyright a {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
 }
