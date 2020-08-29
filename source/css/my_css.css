@@ -491,3 +491,74 @@ a {
   padding: 12px 40px;
   background: #d7b399;
 }
+
+
+#discount {
+  width: 100%;
+  height: 950px;
+}
+
+.discount h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  margin: 0;
+}
+
+.discount ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+  border: 3px solid #d7b399;
+  width: 257px;
+}
+
+.discount img {
+  width: 251px;
+  padding-bottom: 25px;
+  padding-top: 22px;
+}
+
+.discount ul span {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.discount ul span:last-child {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  color: #d7b399;
+}
+
+.discount div {
+  text-align: center;
+  padding-top: 103px;
+}
+
+.discount div a {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  display: inline-block;
+  padding: 18px 64px 18px 35px;
+  background: #d7b399;
+}
