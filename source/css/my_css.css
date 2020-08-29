@@ -307,6 +307,10 @@ a {
   width: 555px;
 }
 
+#collection__item {
+  width: 100%;
+}
+
 .collection__item ul {
   display: flex;
   flex-wrap: wrap;
@@ -370,4 +374,74 @@ a {
   background-image: url(../img/shirt.pink.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+}
+
+#new__collection {
+  width: 100%;
+  height: 950px;
+}
+
+.new__collection h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  margin: 0;
+}
+
+.new__collection ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new__collection ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+  border: 3px solid #d7b399;
+  width: 257px;
+}
+
+.new__collection img {
+  width: 251px;
+  padding-bottom: 25px;
+  padding-top: 22px;
+}
+
+.new__collection ul span {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.new__collection ul span:last-child {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  color: #d7b399;
+}
+
+.new__collection div {
+  text-align: center;
+  padding-top: 103px;
+}
+
+.new__collection div a {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  display: inline-block;
+  padding: 18px 64px 18px 35px;
+  background: #D7B399;
 }
