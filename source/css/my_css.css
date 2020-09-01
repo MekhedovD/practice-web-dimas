@@ -743,5 +743,33 @@ a {
   #btn_menu + label + ul {
     display: none;
   }
+
+  #discount__page {
+    min-width: 420px;
+  }
+
+  .discount__page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .discount__page_item:nth-child(2) {
+    order: -1;
+  }
+
+  .discount__page_item span:first-of-type {
+    right: 103px;
+    top: 10px;
+  }
+
+  .discount__page_item span:last-of-type {
+    right: 100px;
+    top: 45px;
+  }
+
+  .discount__page_item img {
+    width: 70%;
+  }
 }
+
 
