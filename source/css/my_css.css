@@ -510,7 +510,10 @@ a {
 
 #discount {
   width: 100%;
-  height: 950px;
+}
+
+.discount {
+  padding-bottom: 150px;
 }
 
 .discount h2 {
@@ -859,7 +862,7 @@ a {
     background-color: #f4f4f4;
   }
 
-  #new-collection {
+  #new__collection {
     min-width: 420px;
   }
 
@@ -867,11 +870,49 @@ a {
     padding-top: 100px;
   }
 
+  .new__collection ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .new__collection ul li {
     padding-bottom: 20px;
   }
 
   .new__collection ul li:last-child {
+    padding-bottom: 0;
+  }
+
+  #subscription {
+    min-width: 420px;
+  }
+
+  .subscription {
+    flex-direction: column;
+  }
+
+  .subscription input {
+    margin: 25px 0;
+  }
+  #discount {
+
+    min-width: 420px;
+  }
+
+  .discount h2 {
+    padding-top: 100px;
+  }
+
+  .discount ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discount ul li {
+    padding-bottom: 20px;
+  }
+
+  .discount ul li:last-child {
     padding-bottom: 0;
   }
 }
