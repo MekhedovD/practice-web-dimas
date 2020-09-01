@@ -23,8 +23,8 @@ a {
 }
 
 .container {
-  max-width: 1140px;
-  /* max-width: 100%; */
+  width: 1140px;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -227,8 +227,8 @@ a {
   width: 100%;
   background: #212121;
   display: flex;
-  align-items: center;
 }
+
 .delivery h2 {
   font-weight: bold;
   font-size: 1.875rem;
@@ -474,7 +474,6 @@ a {
   align-items: center;
   justify-content: space-around;
   padding: 70px 0;
-  width: 1100px;
 }
 
 .subscription p {
@@ -577,7 +576,6 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 1100px;
   padding: 73px 0 78px;
 }
 
@@ -611,7 +609,6 @@ a {
 .footer__items {
   display: flex;
   flex-direction: column;
-  /* padding-top: 13px; */
 }
 
 .footer__items p {
@@ -665,23 +662,59 @@ a {
   }
 } */
 
-/* @media screen and (max-width: 425px) {
+@media screen and (max-width: 420px) {
+  .container {
+    display: contents;
+  }
+  
+  #header {
+    min-width: 420px;
+  }
+
   .header {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+  }
+
+  .header__mobile {
+    width: 100%;
+  }
+
+  .header__list ul {
+    display: block;
+    margin-top: -58px;
+    padding-bottom: 28px;
+  }
+
+  .header__list ul li {
+    border-bottom: 1px solid rgb(153, 150, 134);
+    text-align: center;
+    padding: 0;
+  }
+
+  .header__list ul li a {
+    font-size: 1.125rem;
+    line-height: 3;
+  }
+
+  .header__list .basket,
+  .header__list .link {
+    display: none;
+  }
+
+  .header__list .logo {
     display: flex;
     flex-direction: column;
   }
 
-  .header .header__list .basket,
-  .header .header__list .link {
-    display: none;
+  .header .logo p {
+    padding: 0;
+    font-size: 1.875rem;
   }
 
-  .header .header__list ul {
-    display: block;
-  }
-
-  .header .header__list .logo {
-    display: block;
+  .header img {
+    width: 50px;
   }
 
   #btn_menu + label {
@@ -692,13 +725,15 @@ a {
     content: "\2630";
     display: inline-block;
     font-size: 30px;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(215, 179, 153, .6);
     padding: 8px 13px;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
 
   #btn_menu:checked + label:before {
-    content: "\205d";
+    content: "\2715";
   }
 
   #btn_menu:checked + label + ul {
@@ -708,4 +743,5 @@ a {
   #btn_menu + label + ul {
     display: none;
   }
-} */
+}
+
