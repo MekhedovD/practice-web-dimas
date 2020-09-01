@@ -802,6 +802,59 @@ a {
     width: 100%;
     background-position: right;
   }
+
+  #collection__item {
+    min-width: 420px;
+  }
+
+  #collection__item .container {
+    display: contents;
+  }
+
+  .collection__item ul li {
+    width: 100%;
+    background: #f4f4f4;
+  }
+
+  .collection__item ul li:nth-child(1) {
+    background-image: url(../img/shirt.pink.png);
+    background-color: #f9f6f1;
+  }
+
+  .collection__item ul li:nth-child(3) {
+    background-image: url(../img/shirt.pink.png);
+    background-color: #f9f6f1;
+  }
+
+  .collection__item ul li:nth-child(6) {
+    background-image: url(../img/shirt.pink.png);
+    background-color: #f9f6f1;
+  }
+
+  .collection__item ul li:nth-child(8) {
+    background-image: url(../img/shirt.pink.png);
+    background-color: #f9f6f1;
+  }
+
+  .collection__item ul li:nth-child(2) {
+    background-image: url(../img/shirt.gray.png);
+    background-color: #f4f4f4;
+  }
+
+  .collection__item ul li:nth-child(4) {
+    background-image: url(../img/shirt.gray.png);
+    background-color: #f4f4f4;
+  }
+
+  .collection__item ul li:nth-child(5) {
+    background-image: url(../img/shirt.gray.png);
+    background-color: #f4f4f4;
+  }
+
+  .collection__item ul li:nth-child(7) {
+    background-image: url(../img/shirt.gray.png);
+    background-color: #f4f4f4;
+  }
 }
 
 
