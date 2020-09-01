@@ -39,6 +39,10 @@ a {
   padding: 1rem;
 }
 
+.btn:hover {
+  background: rgb(215, 179, 153, .7);
+}
+
 #header {
   width: 100%;
   background: #f9f6f1;
@@ -262,7 +266,7 @@ a {
 
 .collection {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 .collection__men {
@@ -662,13 +666,13 @@ a {
   }
 } */
 
-@media screen and (max-width: 420px) {
-  .container {
-    display: contents;
-  }
-  
+@media screen and (max-width: 420px) {  
   #header {
     min-width: 420px;
+  }
+
+  #header .container {
+    display: contents;
   }
 
   .header {
@@ -769,6 +773,34 @@ a {
 
   .discount__page_item img {
     width: 70%;
+  }
+
+  #delivery {
+    min-width: 420px;
+  }
+
+  #collection {
+    min-width: 420px;
+  }
+
+  .collection {
+    flex-direction: column;
+  }
+
+  .collection__men {
+    width: 100%;
+    background-position: left;
+  }
+
+  .men {
+    position: unset;
+    text-align: right;
+    margin-right: 35px;
+  }
+
+  .collection__women {
+    width: 100%;
+    background-position: right;
   }
 }
 
