@@ -15,9 +15,9 @@
     <div id="header">
       <div class="container">
         <div class="header">
-          <div class="header__list">
-            <!-- <input type="checkbox" id="btn_menu" />
-            <label for="btn_menu"></label> -->
+          <div class="header__list header__mobile">
+            <input type="checkbox" id="btn_menu" />
+            <label for="btn_menu"></label>
             <ul>
               <li>
                 <a class="gray" href="#">Для мужчин</a>
@@ -32,7 +32,7 @@
           </div>
           <div class="header__list">
             <div class="logo">
-              <img src="./img/Frame (1).png" />
+              <img src="./img/Frame.png" alt="logo" />
               <p>the loop</p>
             </div>
           </div>
@@ -44,7 +44,7 @@
           </div>
           <div class="header__list">
             <div class="basket">
-              <a href="#"><img src="./img/basket.png" /></a>
+              <a href="#"><img src="./img/basket.png" alt="basket" /></a>
               <span>5</span>
             </div>
           </div>
@@ -62,7 +62,7 @@
           <div class="discount__page_item">
             <span class="black">9 900 ₽</span>
             <span>1 900 ₽</span>
-            <img src="./img/running_shoes.png" alt="" />
+            <img src="./img/running_shoes.png" alt="shoes" />
           </div>
         </div>
       </div>
@@ -132,28 +132,28 @@
           <ul>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
@@ -179,28 +179,28 @@
           <ul>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/new-collection.png" />
+                <img src="./img/new-collection.png" alt="collection" />
                 <span class="black">Коктельное платье</span>
                 <span>₽ 40 000</span>
               </a>
@@ -209,13 +209,13 @@
           <div><a class="btn btn__xl" href="#">Все модели</a></div>
         </div>
       </div>
-    </div>
+    </div> 
     <div id="footer">
       <div class="container">
         <div class="footer">
           <div class="footer__logo">
             <div class="footer__img">
-              <img src="./img/Frame (1).png" />
+              <img src="./img/Frame.png" alt="logo" />
               <p>the loop</p>
             </div>
             <div class="footer__text">
@@ -226,30 +226,39 @@
             </div>
           </div>
           <div class="footer__items">
-            <p>Основные ссылки</p>
-            <a href="#">О компании</a>
-            <a href="#">Каталог</a>
-            <a href="#">Доставка</a>
-            <a href="#">Оплата</a>
+            <button class="accordion">Основные ссылки</button>
+            <ul class="panel">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Оплата</a></li>
+            </ul>
           </div>
           <div class="footer__items">
-            <p>Категории</p>
-            <a href="#">Мужская одежда</a>
-            <a href="#">Женская одежда</a>
-            <a href="#">Детская одежда</a>
-            <a href="#">Для животных</a>
+            <button class="accordion">Категории</button>
+            <ul class="panel">
+              <li><a href="#">Мужская одежда</a></li>
+              <li><a href="#">Женская одежда</a></li>
+              <li><a href="#">Детская одежда</a></li>
+              <li><a href="#">Для животных</a></li>
+            </ul>
           </div>
           <div class="footer__items">
-            <p>Полезные ссылки</p>
-            <a href="#">Таблица размеров</a>
-            <a href="#">Блог о модег</a>
-            <a href="#">Наша миссия</a>
+            <button class="accordion">Полезные ссылки</button>
+            <ul class="panel">
+              <li><a href="#">Таблица размеров</a></li>
+              <li><a href="#">Женская одежда</a></li>
+              <li><a href="#">Блог о моде</a></li>
+              <li><a href="#">Наша миссия</a></li>
+            </ul>
           </div>
           <div class="footer__items">
-            <p>Соц сети</p>
-            <a href="#"><img src="./img/VK.png" />VK.com</a>
-            <a href="#"><img src="./img/fcb.png" />Facebook</a>
-            <a href="#"><img src="./img/Ig.png" />Instagram</a>
+            <button class="accordion">Соц сети</button>
+            <ul class="panel">
+              <li><a href="#"><img src="./img/VK.png" alt="vk" />VK.com</a></li>
+              <li><a href="#"><img src="./img/fcb.png" alt="fb" />Facebook</a></li>
+              <li><a href="#"><img src="./img/Ig.png" alt="insa" />Instagram</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -262,5 +271,6 @@
         </div>
       </div>
     </div>
+    <script src="./my__js.js"></script>
   </body>
 </html>
