@@ -285,6 +285,7 @@ button {
   line-height: 29px;
   letter-spacing: 0.03em;
   padding: 60px 0 25px;
+  text-transform: uppercase;
 }
 
 .men__text span,
@@ -379,6 +380,7 @@ button {
 .new__collection ul li,
 .discount ul li {
   flex: 1 1 22%;
+  margin-left: 14px;
 }
 
 .new__collection li a,
